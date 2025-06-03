@@ -1,2 +1,4 @@
 flask
 pip freeze > requirements.txt
+flask
+gunicorn
