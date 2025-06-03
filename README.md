@@ -1,18 +1,81 @@
-# 🌐 Azure-Deployed Flask Web App
+#  Azure Flask WebApp
 
-This is a simple **Python Flask** web application deployed on **Microsoft Azure**. It showcases a basic web interface and demonstrates hands-on experience with **cloud deployment**, **web development**, and **DevOps workflows**.
+A simple Flask web application built using Python and deployed on [Render.com](https://render.com/) as a cloud project for showcasing my cloud computing and DevOps skills.
 
----
+##  Tech Stack
 
-## 🚀 Project Highlights
+- Python 3
+- Flask
+- Gunicorn (for production-ready deployment)
+- Render (for cloud hosting)
+- Git & GitHub (for version control and CI/CD)
 
-- 🔹 Built using Python and Flask
-- 🔹 Frontend rendered using Jinja2 templates
-- 🔹 Hosted on Azure App Service
-- 🔹 CI/CD pipeline using GitHub Actions (coming next)
-- 🔹 Easy to understand and scalable structure
+##  Features
 
----
+- Minimal Flask web server with Jinja templating
+- Render.com deployment with auto-deploy from GitHub
+- Lightweight and beginner-friendly structure
+- Demonstrates practical use of cloud-based web hosting
 
-## 📂 Project Structure
+##  Project Structure
 
+azure-flask-webapp/
+├── app.py # Main Flask app file
+├── requirements.txt # Python dependencies
+├── render.yaml # Render deployment configuration (if used)
+├── README.md # Project documentation
+└── templates/
+└── index.html # HTML template file
+
+
+##  How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/BaleAkshaya29/azure-flask-webapp.git
+
+cd azure-flask-webapp
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python app.py
+
+Then open your browser and visit http://127.0.0.1:5000.
+
+Live Deployment
+This app is live and deployed via Render: https://azure-flask-webapp.onrender.com
+
+Deployment Steps (Render.com)
+Connect GitHub repository to Render.
+
+Set Build Command:
+
+nginx
+Copy
+Edit
+pip install -r requirements.txt
+Set Start Command:
+
+nginx
+Copy
+Edit
+gunicorn app:app
+Choose Free Plan.
+
+Enable auto-deploy from the master branch.
+
+Learning Outcome
+Practical cloud deployment without needing an Azure subscription
+
+Confidence in working with real-world CI/CD and deployment workflows
+
+Hands-on with version control, web development, and cloud hosting
+
+License
+This project is licensed under the MIT License.
+
+Author
+Akshaya Bale
+GitHub Profile
