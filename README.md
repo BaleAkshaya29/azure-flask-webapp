@@ -85,10 +85,5 @@ This project is licensed under the MIT License.
 Author
 Akshaya Bale
 https://github.com/BaleAkshaya29
-1. Update Your README.md
-Make your project look more polished on GitHub by including:
 
-markdown
-Copy
-Edit
 
