@@ -27,6 +27,12 @@ azure-flask-webapp/
 └── templates/
 └── index.html # HTML template file
 
+##  How to Deploy on Render
+
+1. Clone this repo
+2. Add a `requirements.txt` file
+3. Use `gunicorn app:app` as the start command
+4. Push to GitHub and connect your repo to Render
 
 ##  How to Run Locally
 
@@ -86,10 +92,3 @@ markdown
 Copy
 Edit
 
-
-## 🚀 How to Deploy on Render
-
-1. Clone this repo
-2. Add a `requirements.txt` file
-3. Use `gunicorn app:app` as the start command
-4. Push to GitHub and connect your repo to Render
